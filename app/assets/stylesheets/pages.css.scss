@@ -42,3 +42,19 @@
 //margin-bottom: 20px;
 //border: 1px solid transparent;
 //}
+.s1 li {color:inherit;font-size:inherit;font-family:inherit;font-style:inherit;font-weight:inherit;line-height:inherit;letter-spacing:normal;}
+.s1 ol,.s1 ul {padding-left:1.3em;padding-right:0;margin-left:0.5em;margin-right:0;line-height:normal;letter-spacing:normal;}
+.s1 ul {list-style-type:disc;}
+.s1 ol {list-style-type:decimal;}
+.s1 ul ul,.s1 ol ul {list-style-type:circle;}
+.s1 ul ul ul,.s1 ol ul ul {list-style-type:square;}
+.s1 ul ol ul,.s1 ol ol ul {list-style-type:square;}
+.s1 ul[dir="rtl"],.s1 ol[dir="rtl"] {padding-left:0;padding-right:1.3em;margin-left:0;margin-right:0.5em;}
+.s1 ul[dir="rtl"] ul,.s1 ul[dir="rtl"] ol,.s1 ol[dir="rtl"] ul,.s1 ol[dir="rtl"] ol {padding-left:0;padding-right:1.3em;margin-left:0;margin-right:0.5em;}
+.s1 p {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h1 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h2 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h3 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h4 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h5 {margin:0;line-height:normal;letter-spacing:normal;}
+.s1 h6 {margin:0;line-height:normal;letter-spacing:normal;}
