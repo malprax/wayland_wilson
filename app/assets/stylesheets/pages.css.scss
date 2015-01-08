@@ -58,3 +58,31 @@
 .s1 h4 {margin:0;line-height:normal;letter-spacing:normal;}
 .s1 h5 {margin:0;line-height:normal;letter-spacing:normal;}
 .s1 h6 {margin:0;line-height:normal;letter-spacing:normal;}
+
+
+.s2link {display:block;overflow:hidden;}
+.s2imgimage {position:static;box-shadow:#000 0 0 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.s2img[data-state~="loading"] .s2imgimage {background:url("//static.wix.com/services/skins/2.933.6/images/wysiwyg/core/themes/editor_web//gif_preloader.gif") center no-repeat;}</style><style type="text/css" data-reactid=".0.0.$s3">.s3itemsContainer {width:-webkit-calc(100% - 2px);width:calc(100% - 2px);white-space:nowrap;background-color:rgba(251, 251, 251, 1);  border-radius:0;    border:solid 1px rgba(200, 200, 200, 1);position:relative;overflow:hidden;}
+.s3moreContainer {overflow:visible;display:inherit;white-space:nowrap;width:auto;background-color:rgba(251, 251, 251, 1);  border-radius:0;    border:solid 1px rgba(200, 200, 200, 1);}
+.s3dropWrapper {z-index:99999;display:block;opacity:1;margin-top:7px;visibility:hidden;position:absolute;box-sizing:border-box;}
+.s3[data-dropmode="dropUp"] .s3dropWrapper {margin-top:0;margin-bottom:7px;}
+.s3repeaterButton {height:100%;position:relative;box-sizing:border-box;display:inline-block;cursor:pointer;background-color:transparent;transition: background-color 0.4s ease 0s;}
+.s3repeaterButton[data-state~="header"] a,.s3repeaterButton[data-state~="header"] div {cursor:default !important;}
+.s3repeaterButton_gapper {padding:0 0px;border-left:1px solid rgba(200, 200, 200, 1);}
+.s3repeaterButtonlabel {display:inline-block;padding:0 10px;font:normal normal bold 15px/1.1em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif ;  color:#646464;transition: color 0.4s ease 0s;}
+.s3repeaterButton:first-child .s3repeaterButton_gapper {border:0;}
+.s3repeaterButton[data-listposition="left"] {border-radius:0;  border-top-right-radius:0;border-bottom-right-radius:0;}
+.s3repeaterButton[data-listposition="right"] {border-radius:0;  border-top-left-radius:0;border-bottom-left-radius:0;}
+.s3repeaterButton[data-listposition="lonely"] {border-radius:0;}
+.s3repeaterButton[data-listposition="lonely"] .s3repeaterButton_gapper {border:0;}
+.s3repeaterButton[data-state~="drop"] {width:100%;display:block;background-color:transparent;transition: background-color 0.4s ease 0s;}
+.s3repeaterButton[data-state~="drop"] .s3repeaterButton_gapper {border:0;border-top:1px solid rgba(200, 200, 200, 1);padding:0;width:auto;}
+.s3repeaterButton[data-state~="drop"] .s3repeaterButtonlabel {padding:0 .5em;}
+.s3repeaterButton[data-listposition="top"] {border-radius:0;  border-bottom-right-radius:0;border-bottom-left-radius:0;}
+.s3repeaterButton[data-listposition="top"] .s3repeaterButton_gapper {border:0;}
+.s3repeaterButton[data-listposition="bottom"] {border-radius:0;  border-top-right-radius:0;border-top-left-radius:0;}
+.s3repeaterButton[data-listposition="dropLonely"] {border-radius:0;}
+.s3repeaterButton[data-listposition="dropLonely"] .s3repeaterButton_gapper {border:0;}
+.s3repeaterButton[data-state~="over"] {background-color:rgba(200, 200, 200, 0.35);  transition: background-color 0.4s ease 0s;}
+.s3repeaterButton[data-state~="over"] .s3repeaterButtonlabel {color:#A8A7A7;transition: color 0.4s ease 0s;}
+.s3repeaterButton[data-state~="selected"] {background-color:rgba(200, 200, 200, 0.35);  transition: background-color 0.4s ease 0s;}
