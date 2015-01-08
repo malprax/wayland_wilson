@@ -27,4 +27,7 @@ Things you may want to cover:
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
-46.108.63.229
+a: 46.108.63.229
+txt: v=spf1 +a +mx +ip4:46.108.63.227 ~all
+
+54.235.78.30
