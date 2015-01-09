@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+  resources :contacts
+
   get 'home' => 'pages#home'
   get 'about_us' => 'pages#about_us'
   get 'our_staff' => 'pages#our_staff'
   get 'services' => 'pages#services'
-  get 'contact' => 'pages#contact'
+  # get 'new_contact' => 'contacts#new'
   get 'opportunities' => 'pages#opportunities'
   get 'find_us' => 'pages#find_us'
 

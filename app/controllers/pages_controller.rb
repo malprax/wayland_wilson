@@ -13,6 +13,8 @@ class PagesController < ApplicationController
   end
 
   def contact
+    @contacts =  Contact.all
+    @contact =  Contact.find(params[:contact_id])
   end
 
   def opportunities
