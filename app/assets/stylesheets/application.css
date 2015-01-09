@@ -34,9 +34,6 @@ background-color: #72d2e5;
 
 
 .navbar {
-position: relative;
-min-height: 50px;
-height: 80px;
 margin-bottom: 0px;
 border: 1px solid transparent;
 }
@@ -63,6 +60,9 @@ line-height: 20px;
 height: 50px;
 }
 
+.container{
+  padding-top: 12px;
+}
 /*footer{
 
   display: block;
@@ -73,52 +73,3 @@ height: 50px;
 body {
 padding-bottom: 40px;
 }
-/*.SITE_CONTAINER{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  vertical-align: baseline;
-  background: transparent;
-}
-
-.background{
-width: 100%;
-position: fixed;
-top: 0px;
-height: 100%;
-background: url(http://static.wixstatic.com/media/b2c0a7_90f9c4cf612348f1beb53dd78ce9dc43.png_srz_p_480_464_75_22_0.50_1.20_0.00_png_srz) 50% 0% / auto repeat repeat fixed rgb(251, 251, 251);
-}
-
-.navbar{
-  width: calc(100% - 2px);
-  white-space: nowrap;
-  background-color: rgba(251, 251, 251, 1);
-  border-radius: 0;
-  border: solid 1px rgba(200, 200, 200, 1);
-  display: inline-block;
-  text-align: center;
-  overflow: visible;
-  box-sizing: border-box;
-
-  width: 980px;
-  position: center;
-
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  vertical-align: baseline;
-
-}
-
-.navlink{
-  color: #646464;
-  transition: color 0.4s ease 0s;
-  display: inherit;
-  position: relative;
-  padding: 0 10px;
-  width: 245px;
-  height: 33px;
-  overflow: visible;
-font: normal normal bold 15px/1.1em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-}*/
