@@ -10,7 +10,7 @@
     </p>
     <hr>
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-sm-7 col-md-7">
         <%= form_for(@contact, :html => { class:"form-horizontal", role:"form"}) do |f| %>
           <% if @contact.errors.any? %>
             <div id="error_explanation">
@@ -26,7 +26,7 @@
       
           <div class="form-group">
             <%= f.label :name, "Name",  for: "inputText3", class:" col-xs-offset-0 col-xs-2 col-sm-2 col-md-2 control-label weight" %>
-            <div class=" col-xs-5 col-sm-5 col-md-5">
+            <div class=" col-xs-5 col-sm-7 col-md-7">
               <%= f.text_field :name, class: "form-control weight", id:"inputText3" %>
             </div>
           </div>
@@ -34,7 +34,7 @@
   
           <div class="form-group">
             <%= f.label :email, "Email",  for: "inputText3", class:" col-xs-offset-0 col-xs-2 col-sm-2 col-md-2 control-label weight" %>
-            <div class=" col-xs-5 col-sm-5 col-md-5">
+            <div class=" col-xs-5 col-sm-7 col-md-7">
               <%= f.text_field :email, class: "form-control weight", id:"inputText3" %>
             </div>
           </div>
@@ -42,8 +42,8 @@
       
           <div class="form-group">
             <%= f.label :message, "Message",  for: "inputText3", class:" col-xs-offset-0 col-xs-2 col-sm-2 col-md-2 control-label weight" %>
-            <div class=" col-xs-5 col-sm-5 col-md-5">
-              <%= f.text_field :message, class: "form-control weight", id:"inputText3" %>
+            <div class=" col-xs-5 col-sm-7 col-md-7">
+              <%= f.text_field :message, rows: 6, class: "form-control weight", id:"inputText3" %>
             </div>
           </div>
   
