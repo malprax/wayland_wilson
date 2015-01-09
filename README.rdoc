@@ -31,3 +31,8 @@ a: 46.108.63.229
 txt: v=spf1 +a +mx +ip4:46.108.63.227 ~all
 
 54.235.78.30
+
+
+ip for happyclean.us/cpanel
+50.2.194.220
+
